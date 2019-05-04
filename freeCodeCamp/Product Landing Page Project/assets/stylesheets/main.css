@@ -1,0 +1,184 @@
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/*
+=================================================================
+
+USER DEFINED STYLE
+
+=================================================================
+*/
+/*Global Style*/
+body {
+    background-image: url(/Portfolio/assets/Images/2560x1440-davys-grey-solid-color-background.jpg);
+    background-size: 100% 100%;
+    font-family: cursive;
+    font-size: 18px;
+    color: rgba(0,0,0,0.6) !important;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);!important;
+    margin: 0;
+}
+a {
+    color: rgba(0,0,0,0.6) !important;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);!important; 
+}
+.page-header{
+    width: 100%;
+    position: fixed;
+    border: none;
+    margin: 0;
+    padding: 10px 0 0;
+    background: url(/Portfolio/assets/Images/Header-background.jpg) no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    z-index: 100000;
+}
+.page-header div img {
+    margin: auto;
+}
+.page-header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.navbar {
+    background: url("https://i.imgsafe.org/096e856b21.png") repeat;
+    box-shadow:inset  1px 1px 1px 1px #2E2E2E, inset  -1px -1px 1px 1px #2E2E2E;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    border: 5px groove #4d4d4d;
+    margin: 0;
+}
+
+nav li{
+    border-left: 5px groove #4d4d4d;
+}
+
+nav a {
+    color: rgba(0,0,0,0.6) !important;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1) !important;
+    font-size: 20px !important;
+}
+
+/*    Social media style */
+.social {
+    margin: 0;
+    padding: 0;
+}
+.social ul {
+    padding: 0;
+    margin: 0;
+}
+.social ul li {
+    list-style: none outside none;
+    display: inline-block;
+}
+.social i {
+    width: 20px;
+    height: 20px;
+    color: #FFF;
+    background-color: #909AA0;
+    font-size: 11px;
+    text-align: center;
+    padding-top: 25%;
+    border-radius: 20%;
+}
+.social .fa-facebook {
+    background: #4060A5;
+}
+.social .fa-twitter {
+    background: #00ABE3;
+}
+.social .fa-github {
+    background: #343434;
+}
+.social .fa-linkedin {
+    background: #0094BC;
+}
+.social .fa-instagram {
+    background:  #125688;
+}
+/*Main Style*/
+main.well {
+    background: url("https://i.imgsafe.org/096e856b21.png") repeat;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 0;
+    border: none;
+}
+
+#about {
+    text-align: center;
+}
+#about p:nth-child(4) {
+    border-top: 5px groove #4d4d4d;
+    padding-top: 10px;
+}
+section {
+    border-bottom: 5px groove #4d4d4d;
+    padding: 50px;  
+}
+
+section h2 {
+    text-align: center;
+    margin: 30px;
+    padding-bottom: 30px;
+}
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+    width: 100%; /* use this, or not */
+    margin: auto;
+}
+.caption {
+    text-align: center;
+}
+.caption h3 {
+    font-size: 20px;
+    font-weight: 900;
+}
+/* Adjusting the scrolling effect*/
+section#about:before { 
+  display: block; 
+  content: " "; 
+  margin-top: 100px; 
+  height: 100px; 
+  visibility: hidden; 
+}
+section#portfolio:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -100px; 
+  height: 100px; 
+  visibility: hidden; 
+}
+section#contact:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -100px; 
+  height: 100px; 
+  visibility: hidden; 
+}
+
+
+footer {
+    background: url("https://i.imgsafe.org/096e856b21.png") repeat;
+    box-shadow:inset  1px 1px 1px 1px #2E2E2E, inset  -1px -1px 1px 1px #2E2E2E;
+    text-align: center;
+}
+.back-to-top {
+cursor: pointer;
+position: fixed;
+bottom: 0;
+right: 20px;
+display:none;
+}
+footer p {
+    margin: 0;
+}
+footer .row span {
+    font-weight: 900;  
+}
