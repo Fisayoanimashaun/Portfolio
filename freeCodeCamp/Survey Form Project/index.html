@@ -10,12 +10,20 @@
 <body>
   <header>
     <h1 id="title">Facilities Management Customer Satisfaction Survey
-</h1>
+    </h1>
   </header>
   <main class="container">
     <p id="description">Tell us how we're doing! Please take a minute to answer the following questions regarding the services recently provided to you and/or your department by Facilities Management.</p>
     <form id="survey-form" action="index.html" method="post">
-
+      <fieldset>
+        <legend> Basic info:</legend>
+        <label>Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <label>Email:</label>
+        <input type="text" id="email" name="email" placeholder="Enter your Email">
+        <label>Age:</label>
+        <input type="number" id="age" name="age" placeholder="Age">
+      </fieldset>
     </form>
   </main>
   <footer>
