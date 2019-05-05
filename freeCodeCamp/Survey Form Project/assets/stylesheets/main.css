@@ -13,6 +13,7 @@ h1 {
 	text-align: justify;
 }
 
+
 .container {
 	width: 80%;
 	height: auto;
@@ -22,4 +23,6 @@ h1 {
 	margin-right: auto;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 	min-width: 500px;
+	padding: 10px;
+	background-color: white;
 }

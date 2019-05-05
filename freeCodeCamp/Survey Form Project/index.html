@@ -9,21 +9,31 @@
 
 <body>
   <header>
-    <h1 id="title">Facilities Management Customer Satisfaction Survey
-    </h1>
+    <h1 id="title">Survey Form</h1>
   </header>
   <main class="container">
-    <p id="description">Tell us how we're doing! Please take a minute to answer the following questions regarding the services recently provided to you and/or your department by Facilities Management.</p>
+    <p id="description">Let us know how we can improve freeCodeCamp</p>
     <form id="survey-form" action="index.html" method="post">
       <fieldset>
-        <legend> Basic info:</legend>
+        <legend> Form:</legend>
         <label>Name:</label>
         <input type="text" id="name" name="name" placeholder="Enter your name">
         <label>Email:</label>
         <input type="text" id="email" name="email" placeholder="Enter your Email">
         <label>Age:</label>
-        <input type="number" id="age" name="age" placeholder="Age">
+        <input type="number" id="number" name="age" placeholder="Age">
+        <p>
+           <label>Which option best describes your current role?</label>
+           <select id = "dropdown">
+             <option value = "1">Student</option>
+             <option value = "2">Full Time Job</option>
+             <option value = "3">Full Time Learner</option>
+             <option value = "4">Prefer not to say</option>
+             <option value = "5">Other</option>
+           </select>
+        </p>
       </fieldset>
+      <input type="submit" name="submit" value="Submit">
     </form>
   </main>
   <footer>
